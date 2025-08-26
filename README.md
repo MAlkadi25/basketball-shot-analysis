@@ -1,42 +1,76 @@
+🏀 Basketball Shot Analysis
 
-# Basketball Shot Analytics Project
+A simple Python data analysis project that takes basketball shot data from a CSV file, cleans it, and produces field goal percentage (FG%) charts by distance and location.
 
-This is a simple data analytics project written in Python that analyzes basketball shot data from a CSV file.
-It calculates field goal percentage (FG%) overall, by distance, and by location, and produces charts.
+This project demonstrates basic data analysis skills (using Python, pandas, and matplotlib), and produces visual insights from raw data.
 
-## Files included:
-- analyze_shots.py — main Python script
-- shots_sample.csv — sample data of basketball shots
-- requirements.txt — Python libraries needed
-- .gitignore — ignores temporary files
-- README.md — this file
+📊 Example Outputs
+FG% by Location
 
-## How to run:
-1. Install Python 3.11+
-2. Open a terminal (Command Prompt on Windows)
-3. Navigate to the project folder:
-   ```
-   cd "C:\Users\Mohamed\Basketball Shot Chart"
-   ```
-4. Create a virtual environment and activate it:
-   ```
-   python -m venv .venv
-   .venv\Scripts\activate
-   ```
-5. Install requirements:
-   ```
-   pip install -r requirements.txt
-   ```
-6. Run the script:
-   ```
-   python analyze_shots.py
-   ```
+FG% by Distance
 
-This will generate:
-- summary_overall.txt
-- summary_by_distance.csv
-- summary_by_location.csv
-- fg_by_distance.png
-- fg_by_location.png
+⚙️ How to Run the Project (Windows)
 
-Upload this project to GitHub as your first portfolio project.
+1. Clone or download this repo
+
+git clone https://github.com/MAIkadi25/basketball-shot-analysis.git
+cd basketball-shot-analysis
+
+
+2. Create a virtual environment
+
+python -m venv .venv
+.venv\Scripts\activate
+
+
+3. Install requirements
+
+pip install -r requirements.txt
+
+
+4. Run the analysis
+
+python analyze_shots.py
+
+📂 Outputs
+
+Running the script will generate:
+
+summary_overall.txt → Overall FG%
+
+summary_by_distance.csv → FG% by distance buckets
+
+summary_by_location.csv → FG% by court location
+
+fg_by_distance.png → Bar chart by distance
+
+fg_by_location.png → Bar chart by location
+
+🛠️ Tech Stack
+
+Python 3.12
+
+pandas
+
+matplotlib
+
+🚀 Next Steps
+
+Replace shots_sample.csv with your own basketball data (game logs or practice shots).
+
+Extend analysis: add shot type filters (2PT vs 3PT), contested vs open shots, etc.
+
+Convert into a dashboard app using Streamlit
+.
+
+📌 About
+
+This repo is part of my data portfolio, showing practical examples of:
+
+Data cleaning
+
+Aggregation & grouping in pandas
+
+Chart visualization in matplotlib
+
+End-to-end workflow (raw data → analysis → charts)
