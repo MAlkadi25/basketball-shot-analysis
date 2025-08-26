@@ -13,8 +13,8 @@ FG% by Distance
 
 1. Clone or download this repo
 
-git clone https://github.com/MAIkadi25/basketball-shot-analysis.git
-cd basketball-shot-analysis
+git clone https://github.com/MAlkadi25/basketball-shot-analysis
+
 
 
 2. Create a virtual environment
