@@ -42,9 +42,12 @@ summary_by_distance.csv → FG% by distance buckets
 
 summary_by_location.csv → FG% by court location
 
-fg_by_distance.png → Bar chart by distance
+### FG% by Distance
+![FG% by Distance](fg_by_distance.png)
 
-fg_by_location.png → Bar chart by location
+### FG% by Location
+![FG% by Location](fg_by_location.png)
+
 
 🛠️ Tech Stack
 
