@@ -1,0 +1,9 @@
+date,location,distance_ft,result,shot_type,contest
+2025-08-20,Left Wing,16,make,2PT,open
+2025-08-20,Left Wing,16,miss,2PT,contested
+2025-08-20,Top,24,miss,3PT,contested
+2025-08-20,Right Wing,23,make,3PT,open
+2025-08-21,Top,8,make,2PT,open
+2025-08-21,Top,8,miss,2PT,contested
+2025-08-21,Left Corner,22,miss,3PT,open
+2025-08-21,Right Corner,22,make,3PT,open
